@@ -1,0 +1,609 @@
+/*########  Nav Bar #########*/
+.firstRow{
+    background-color: #e3ebf9;
+}
+nav {
+    background-color: #d0ddf2;
+    width: 100%;
+}
+nav .navBar li.internshalaIcon {
+    float: left;
+}
+nav .navBar li.internshalaIcon img{
+    width: 200px;
+    height: 90px;
+}
+nav .navBar li {
+    list-style: none;
+    display: block;
+    font-size: 17px;
+    float: right;
+    margin: 10px;
+    
+}
+nav .rightNav  {
+    display: block;
+    float: right;
+    margin-bottom: 1;
+    margin-top: 50px;
+    margin-left: 400px;
+    position:absolute;
+}
+
+nav .navBar li a{
+     text-transform: uppercase;
+     text-decoration: none;
+    text-align: center;
+       padding: 15px;
+    
+}
+.rightNavBar {
+    display: block;
+    width: 100%;
+}
+.rightNavBar ul .logAndSign {
+    margin-top: 64px;
+}
+.rightNavBar ul li{
+    display: block;
+    float: right;
+    font-size: 25px;
+    margin-top: 70px;
+    margin: 8px;
+}
+.rightNavBar ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 15px;
+    background-color: #4889f2;
+    color: #fff;
+}
+.rightNavBar ul li a:hover {
+background-color: #1f56af;
+}
+
+.rightNav a:hover {
+    background-color: #2b72e5;
+    color: #fff;
+}
+
+
+/*########## Default ##########*/
+body{
+    margin: 0;
+}
+
+.col-1{width: 8.33%;}
+.col-2{width: 16.66%;}
+.col-3{width: 25%;}
+.col-4{width: 33.33%;}
+.col-5{width: 41.66%;}
+.col-6{width: 50%;}
+.col-7{width: 58.33%;}
+.col-8{width: 66.66%;}
+.col-9{width: 75%;}
+.col-10{width: 83.33;}
+.col-11{width: 91.66;}
+.col-12{width: 10}
+
+.row{
+    display: flex;
+    width: 100%;
+}
+row::after{
+    display: block;
+}
+.row .startImage {
+    width: 90%;
+    display: block;
+    margin: auto;
+    height: 400px;
+}
+.popularCities, .popularCategory, .internshipsLink, .allTrainingCourseList{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+.workFromHome{
+    position: relative;
+    left: 110px;
+}
+.col-1 .workFromHomeTitle{
+    position: absolute;
+     font-family: 'Archivo Black', sans-serif;
+    color: #fff;
+    font-weight: 800;
+    top: 18px;left: 28px;
+    
+}
+.delhi{
+    position: relative;
+    left: 140px;
+}
+.col-1 img{
+    width: 100%;
+    height: 100px;
+    position: relative;
+    border-radius: 10px;
+}
+.col-1 .delhiTitle {
+    position: absolute;
+    text-align: center;
+    top: 40px;left: 28px;
+    text-align: center;
+    color: #fff;
+    font-family: 'Archivo Black', sans-serif;
+    font-weight: 900;
+}
+.bangalore{
+    position: relative;
+    left: 170px;
+}
+.bangalore .bangaloreTitle {
+    position: absolute;
+    font-family: 'Archivo Black', sans-serif;
+    color: #fff;
+    font-weight: 800;
+    top: 38px;left: 17px; 
+}
+.mumbai{
+    position: relative;
+    left: 200px;
+}
+.mumbaiTitle{
+  position: absolute;
+    font-family: 'Archivo Black', sans-serif;
+    color: #fff;
+    font-weight: 800;
+    top: 38px;left: 17px; 
+}
+.hyderabad{
+    position: relative;
+    left: 230px;
+}
+.hyderabadTitle{
+     position: absolute;
+    font-family: 'Archivo Black', sans-serif;
+    color: #fff;
+    font-weight: 800;
+    top: 38px;left: 10px; 
+}
+.chennai{
+    position: relative;
+    left: 260px;
+}
+.chennaiTitle{
+    position: absolute;
+    font-family: 'Archivo Black', sans-serif;
+    color: #fff;
+    font-weight: 800;
+    top: 38px;left: 20px; 
+}
+.kolkata{
+    position: relative;
+    left: 290px;
+}
+.kolkataTitle{
+     position: absolute;
+    font-family: 'Archivo Black', sans-serif;
+    color: #fff;
+    font-weight: 800;
+    top: 38px;left: 20px; 
+}
+.international{
+    position: relative;
+    left: 320px;
+}
+.internationalTitle{
+    position: absolute;
+    font-family: 'Archivo Black', sans-serif;
+    color: #fff;
+    font-weight: 800;
+    top: 38px;left: 0px; 
+}
+.engineering {
+    position: relative;
+    left: 110px;
+}
+.engineeringTitle{
+    position: absolute;
+    font-family: 'Archivo Black', sans-serif;
+    color: #fff;
+    font-weight: 800;
+    top: 38px;left: 5px; 
+}
+.mba{
+    position: relative;
+    left: 140px;
+}
+.mbaTitle{
+    position: absolute;
+    font-family: 'Archivo Black', sans-serif;
+    color: #fff;
+    font-weight: 800;
+    top: 38px;left: 35px; 
+}
+.science{
+    position: relative;
+    left: 170px;
+}
+.scienceTitle{
+     position: absolute;
+    font-family: 'Archivo Black', sans-serif;
+    color: #fff;
+    font-weight: 800;
+    top: 38px;left: 20px;
+}
+.humanities{
+    position: relative;
+    left: 200px;
+}
+.humanitiesTitle{
+    position: absolute;
+    font-family: 'Archivo Black', sans-serif;
+    color: #fff;
+    font-weight: 800;
+    top: 38px;left: 5px;
+}
+.media{
+    position: relative;
+    left: 230px;
+}
+.mediaTitle{
+    position: absolute;
+    font-family: 'Archivo Black', sans-serif;
+    color: #fff;
+    font-weight: 800;
+    top: 38px;left: 25px;
+}
+.ngo{
+    position: relative;
+    left: 260px;
+}
+.ngoTitle{
+     position: absolute;
+    font-family: 'Archivo Black', sans-serif;
+    color: #fff;
+    font-weight: 800;
+    top: 38px;left: 35px;
+}
+.law{
+    position: relative;
+    left: 290px;
+}
+.lawTitle{
+     position: absolute;
+    font-family: 'Archivo Black', sans-serif;
+    color: #fff;
+    font-weight: 800;
+    top: 38px;left: 35px;
+}
+.design{
+    position: relative;
+    left: 320px;
+}
+.designTitle{
+     position: absolute;
+    font-family: 'Archivo Black', sans-serif;
+    color: #fff;
+    font-weight: 800;
+    top: 38px;left: 35px; 
+}
+.linkExtraDesign a{
+    text-decoration: none;
+    padding: 9px;
+}
+.heading1, .heading2{
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-weight: 600;
+    font-size: 30px;
+    color: #808082;
+}
+/*############ Container Box #################*/
+.box-1 {
+    width: 16.66%;
+    position: relative;
+    border-radius: 5px;
+    box-shadow: 0 0 5px 2px #ababad;
+    height: 220px;
+    width: 200px;
+    left: 200px;
+}
+.box-1 img{
+    position: absolute;
+    height:100px;
+    width: 100px;
+    left: 50px;top: 10px;
+}
+.box-1 p.boxHeading{
+    position: absolute;
+    top: 90px;
+    left: 60px;
+    color: #76a6f2;
+    font-weight: bold;
+}
+.box-1 p{
+    position: absolute;
+    top: 120px;
+    padding: 9px;
+    color: #525254;
+    text-align: center;
+}
+.anchor a:hover{
+    box-shadow: 0 0 5px 2px #6d6d70;
+    color: #fff;
+    
+}
+
+.box-2 {
+    width: 16.66%;
+    position: relative;
+    border-radius: 5px;
+    box-shadow: 0 0 5px 2px #ababad;
+    height: 220px;
+    width: 200px;
+    left: 250px;
+}
+.box-2 img{
+    position: absolute;
+    height:100px;
+    width: 100px;
+    left: 50px;top: 10px;
+}
+.box-2 p.boxHeading{
+    position: absolute;
+    top: 90px;
+    left: 30px;
+    color: #76a6f2;
+    font-weight: bold;
+}
+.box-2 p{
+    position: absolute;
+    top: 120px;
+    padding: 9px;
+    color: #525254;
+    text-align: center;
+}
+.anchor a:hover{
+    box-shadow: 0 0 5px 2px #6d6d70;
+    color: #fff;
+    
+}
+
+.box-3 {
+    width: 16.66%;
+    position: relative;
+    border-radius: 5px;
+    box-shadow: 0 0 5px 2px #ababad;
+    height: 220px;
+    width: 200px;
+    left: 300px;
+}
+.box-3 img{
+    position: absolute;
+    height:100px;
+    width: 100px;
+    left: 50px;top: 10px;
+}
+.box-3 p.boxHeading{
+    position: absolute;
+    top: 90px;
+    left: 30px;
+    color: #76a6f2;
+    font-weight: bold;
+}
+.box-3 p{
+    position: absolute;
+    top: 120px;
+    padding: 9px;
+    color: #525254;
+    text-align: center;
+}
+
+.box-4 {
+    width: 16.66%;
+    position: relative;
+    border-radius: 5px;
+    box-shadow: 0 0 5px 2px #ababad;
+    height: 220px;
+    width: 200px;
+    left: 350px;
+}
+.box-4 img{
+    position: absolute;
+    height:100px;
+    width: 100px;
+    left: 50px;top: 10px;
+}
+.box-4 p.boxHeading{
+    position: absolute;
+    top: 90px;
+    left: 30px;
+    color: #76a6f2;
+    font-weight: bold;
+}
+.box-4 p{
+    position: absolute;
+    top: 120px;
+    padding: 9px;
+    color: #525254;
+    text-align: center;
+}
+.allTrainingCourseList a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 18px;
+    padding: 9px 29px;
+     background-color: #4889f2;
+    color: #fff;
+}
+.allTrainingCourseList a:hover{
+     background-color: #4949d8;
+}
+/*##########  Blog Section ###############*/
+.blog1{
+    position: relative;
+    left: 60px;
+    height: 150px;
+}
+.blog1 img, .blog1 h4, .blog1 p, .blog1 a{
+   
+}
+.blog1 img{
+    position: absolute;
+    width: 30%;height: 140px;
+}
+.blog1 h4{
+    position: absolute;
+    left: 190px;top: 0px;
+}
+.blog1 p{
+    position: absolute;
+    left: 180px;
+    top: 24px;
+}
+.blog1 a{
+    position: absolute;
+    left: 440px;top: 135px;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 5px;
+    background-color: #4889f2;
+    color: #fff;
+    font-size: 18px;
+}
+.blog1 a:hover{
+    background-color: #4949d8;
+}
+
+.blog2{
+    position: relative;
+    left: 120px;
+    height: 150px;
+}
+.blog2 img{
+    position: absolute;
+    width: 30%;height: 140px;
+}
+.blog2 h4{
+    position: absolute;
+    display: inline;
+    left: 190px;top: 0px;
+}
+.blog2 p{
+    position: absolute;
+    left: 190px;
+    top: 41px;
+    display: inline;
+}
+.blog2 a{
+    position: absolute;
+    left: 440px;top: 135px;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 5px;
+    background-color: #4889f2;
+    color: #fff;
+    font-size: 18px;
+}
+.blog2 a:hover{
+    background-color: #4949d8;
+}
+.blog3{
+    position: relative;
+    left: 60px;
+    height: 150px;
+    top: 30px;
+}
+.blog3 img{
+    position: absolute;
+    width: 30%;height: 140px;
+}
+.blog3 h4{
+    position: absolute;
+    display: inline;
+    left: 190px;top: 0px;
+}
+.blog3 p{
+    position: absolute;
+    left: 190px;
+    top: 41px;
+    display: inline;
+}
+.blog3 a{
+    position: absolute;
+    left: 440px;top: 135px;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 5px;
+    background-color: #4889f2;
+    color: #fff;
+    font-size: 18px;
+}
+.blog3 a:hover{
+    background-color: #4949d8;
+}
+.blog4{
+    position: relative;
+    left: 120px;
+    height: 60px;
+    top: 30px;
+}
+.blog4 img{
+    position: absolute;
+    width: 30%;height: 140px;
+}
+.blog4 h4{
+    position: absolute;
+    display: inline;
+    left: 190px;top: 0px;
+}
+.blog4 p{
+    position: absolute;
+    left: 190px;
+    top: 41px;
+    display: inline;
+}
+.blog4 a{
+    position: absolute;
+    left: 440px;top: 135px;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 5px;
+    background-color: #4889f2;
+    color: #fff;
+    font-size: 18px;
+}
+.blog4 a:hover{
+    background-color: #4949d8;
+}
+/*#########  Footer ################*/
+footer{
+    background-color: #717272;
+}
+.footerRow{
+    background-color: #717272;
+    width: 100%;
+}
+.footer{
+    position: relative;
+    padding-left: 70px;
+    background-color: #717272;
+}
+.footer a{
+    display: block;   
+    line-height: 28px;
+    color: black;
+}
+.footer a:hover{
+    color: #fff;
+    text-decoration: none;
+    
+}
+
+.footerCopyright{
+    position: relative;
+    left: 1100px;
+}
